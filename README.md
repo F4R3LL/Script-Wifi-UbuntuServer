@@ -1,9 +1,13 @@
 # Script Wifi UbuntuServer
-
+-------------------------
+Formating wpa_supplicant output for etc/network/interfaces 
 -------------------------
 
-Simple Script to configure your wifi without any package to download.
+/!\ - Make backup file - /!\
+For exemple : 
+$> sudo cp etc/network/interfaces etc/network/interfaces.old
 
-Read the comments sections before using it.
-
-
+You may need the wpa_supplicant package if you're using a "naked system server".
+$> sudo apt update
+$> sudo apt-get install wpasupplicant
+$> sudo apt -f install
