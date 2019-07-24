@@ -1,6 +1,6 @@
-# Script Wifi - UbuntuServer
+# Script Wifi - UbuntuServer (dhcp)
 -------------------------
-Formating wpa_supplicant output for etc/network/interfaces 
+Set "wpa_supplicant output" in etc/network/interfaces 
 -------------------------
 
 /!\ - Make backup file
