@@ -1,10 +1,10 @@
 # Script Wifi - UbuntuServer (dhcp)
 -------------------------
-Set "wpa_supplicant output" in etc/network/interfaces 
+Put "wpa_supplicant output" in /etc/network/interfaces 
 -------------------------
 
-/!\ - Make backup file
-$> sudo cp etc/network/interfaces etc/network/interfaces.old
+1) Backup
+$> sudo cp /etc/network/interfaces /etc/network/interfaces.old
 
-Dependency :
+2) Dependency :
 $> sudo apt update && apt-get install wpasupplicant && apt -f install
